@@ -24,15 +24,15 @@ public class Lab1_average_vu {
     System.out.println("Please enter the following as a percentage...");
     // This the beginning line which simply prompts the user.
     
-    System.out.print("midterm exams: ");
-    double midtermexams = input.nextDouble();
-    midtermexams = (midtermexams * 0.2);
-    // The grade for midterm exams is multiplied by 20%.
+    System.out.print("midterm exam: ");
+    double midtermexam = input.nextDouble();
+    midtermexam = (midtermexam * 0.2);
+    // The grade for midterm exam is multiplied by 20%.
     
-    System.out.print("final exams: ");
-    double finalexams = input.nextDouble();
-    finalexams = (finalexams * 0.2);
-    // The grade for final exams is multiplied by 20%
+    System.out.print("final exam: ");
+    double finalexam = input.nextDouble();
+    finalexam = (finalexam * 0.2);
+    // The grade for final exam is multiplied by 20%
     
     System.out.print("projects: ");
     double projects = input.nextDouble();
@@ -44,7 +44,7 @@ public class Lab1_average_vu {
     hwandlabs = (hwandlabs * 0.4);
     // The grade for homework and labs is multiplied by 40%.
     
-    double average = (midtermexams + finalexams + projects + hwandlabs);
+    double average = (midtermexam + finalexam + projects + hwandlabs);
     /* All the calculated grades by their weighted percentages are added
        together to calculate the total average. */
         
