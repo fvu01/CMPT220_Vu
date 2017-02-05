@@ -1,5 +1,5 @@
 /**
- * file: lab1_average_vu.java
+ * file: AverageGrade.java
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Lab 1
@@ -9,17 +9,16 @@
  * This file averages multiple inputted grades.
  */
 /**
- * Lab1_average_vu
+ * AverageGrade
  * 
  * This class takes various inputted grades and outputs the average.
  */
 import java.util.Scanner;
 // This imports the Scanner for console input.
 
-public class Lab1_average_vu {
-  private static Scanner input;
+public class AverageGrade {
   public static void main(String[] args) {
-    input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
     
     System.out.println("Please enter the following as a percentage...");
     // This the beginning line which simply prompts the user.

@@ -1,5 +1,5 @@
 /**
- * file: lab1_p25_vu.java
+ * file: GratuityCalc.java
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Lab 1
@@ -11,7 +11,7 @@
  */
 /**
  * 
- * Lab1_p25_vu
+ * GratuityCalc
  * 
  * This class takes an inputted gratuity rate and a subtotal and calculates the 
  * total amount of gratuity. It then also calculates the grand total based off 
@@ -22,10 +22,9 @@
 import java.util.Scanner;
 // This imports the Scanner class for console input.
 
-public class Lab1_p25_vu {
-  private static Scanner input;
+public class GratuityCalc {
   public static void main(String[] args) {
-    input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     
     System.out.print("Enter the subtotal and a gratuity rate: ");
     /* This prompts the user to enter two numbers, the subtotal and gratuity 

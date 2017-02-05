@@ -1,5 +1,5 @@
 /**
- * file: lab1_p26_vu.java
+ * file: SumOfDigits.java
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Lab 1
@@ -9,7 +9,7 @@
  * This file calculates the sum of the digits within a number.
  */
 /**
- * Lab1_p26_vu
+ * SumOfDigits
  * 
  * This class outputs a sum which is made up of the numbers within an integer
  * variable.
@@ -18,10 +18,9 @@
 import java.util.Scanner;
 // This imports the Scanner class for console input. 
 
-public class Lab1_p26_vu {
-  private static Scanner input;
+public class SumOfDigits {
   public static void main(String[] args) {
-    input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     
     System.out.print("Enter a number between 0 and 1000: ");
     int number = input.nextInt();

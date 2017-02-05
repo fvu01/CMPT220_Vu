@@ -1,5 +1,5 @@
 /**
- * file: Lab2_p34_vu.java
+ * file: RandomMonth.java
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Lab 2
@@ -10,12 +10,12 @@
  * integer generated.
  */
 /**
- * Lab2_p34_vu
+ * RandomMonth
  * 
  * This class generates a random integer and displays the corresponding month.
  */
  
-public class Lab2_p34_vu {
+public class RandomMonth {
 	public static void main(String[] args) {
 		 int randomMonth = (int) ((Math.random() * 12) + 1);
 		 // This Math.random generates a random integer from 1 to 12

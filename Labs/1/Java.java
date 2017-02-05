@@ -1,5 +1,5 @@
 /**
- * file: lab1_p13_vu.java
+ * file: Java.java
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Lab 1
@@ -10,13 +10,13 @@
  * for "JAVA".
  */
 /**
- * Lab1_p13_vu
+ * Java
  * 
  * This class implements multiple lines of System.out.println to display the 
  * letters J, A, and V forming a pattern of the word JAVA.
  */
 
-public class Lab1_p13_vu {
+public class Java {
   public static void main(String[] args) {
     System.out.println("    J    A  V     V  A");
     System.out.println("    J   A A  V   V  A A");

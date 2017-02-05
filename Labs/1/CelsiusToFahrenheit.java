@@ -1,5 +1,5 @@
 /**
- * file: lab1_p21_vu.java
+ * file: CelsiusToFahrenheit.java
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Lab 1
@@ -10,7 +10,7 @@
  */
 /**
  * 
- * Lab_p21_vu
+ * CelsiusToFahrenheit
  * 
  * This class has an output which asks for a degree in celsius and it converts 
  * that number into degrees in fahrenheit.
@@ -20,10 +20,9 @@
 import java.util.Scanner; 
 // This imports the Scanner class for console input.
 
-public class Lab1_p21_vu {
-  private static Scanner input;
+public class CelsiusToFahrenheit {
   public static void main(String[] args) {
-    input = new Scanner(System.in); 
+    Scanner input = new Scanner(System.in); 
     // This initializes and inputs the scanner.
     
     System.out.print("Enter a degree in Celsius: "); 
@@ -32,7 +31,7 @@ public class Lab1_p21_vu {
     
     double fahrenheit = (9.0/5.0) * celsius + 32.0; 
     // This code converts degrees celsius to degrees fahrenheit.
-    System.out.println(celsius + " degree Celsius is equal to " + fahrenheit + 
-    " in Fahrenheit");
+    System.out.println(celsius + " degrees celsius is equal to " + fahrenheit + 
+    " degrees fahrenheit.");
   }
 }
