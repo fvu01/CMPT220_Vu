@@ -34,62 +34,62 @@ public class DaysInAMonth {
 		
     /* The switch-case take the month number and equates it to the corresponding
        month name and number of days in that month. */
-		switch(month) {
-			case 1: 
-			nameOfMonth = "January";
-			numOfDaysInMonth = 31;
-			break;
-			case 2: 
-			nameOfMonth = "February";
-			if((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
-				numOfDaysInMonth = 29; // This calculates a leap year.
-			}
-			else {
-				numOfDaysInMonth = 28;
-			}
-			break;
-			case 3:
-			nameOfMonth = "March";
-			numOfDaysInMonth = 31;
-			break;
-			case 4:
-			nameOfMonth = "April";
-			numOfDaysInMonth = 30;
-			break;
-			case 5:
-			nameOfMonth = "May";
-			numOfDaysInMonth = 31;
-			break;
-			case 6:
-			nameOfMonth = "June";
-			numOfDaysInMonth = 30;
-			break;
-			case 7:
-			nameOfMonth = "July";
-			numOfDaysInMonth = 31;
-			break;
-			case 8:
-			nameOfMonth = "August";
-			numOfDaysInMonth = 31;
-			break;
-			case 9:
-			nameOfMonth = "September";
-			numOfDaysInMonth = 30;
-			break;
-			case 10:
-			nameOfMonth = "October";
-			numOfDaysInMonth = 31;
-			break;
-			case 11:
-			nameOfMonth = "November";
-			numOfDaysInMonth = 30;
-			break;
-			case 12:
-			nameOfMonth = "December";
-			numOfDaysInMonth = 31;
-			break;
-		}
-		System.out.println(nameOfMonth + " " + year + " has " + numOfDaysInMonth + 
-		" days.");
-	}
+    switch(month) {
+      case 1: 
+      nameOfMonth = "January";
+      numOfDaysInMonth = 31;
+      break;
+      case 2: 
+      nameOfMonth = "February";
+      if((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
+        numOfDaysInMonth = 29; // This calculates a leap year.
+      }
+      else {
+        numOfDaysInMonth = 28;
+      }
+      break;
+      case 3:
+      nameOfMonth = "March";
+      numOfDaysInMonth = 31;
+      break;
+      case 4:
+      nameOfMonth = "April";
+      numOfDaysInMonth = 30;
+      break;
+      case 5:
+      nameOfMonth = "May";
+      numOfDaysInMonth = 31;
+      break;
+      case 6:
+      nameOfMonth = "June";
+      numOfDaysInMonth = 30;
+      break;
+      case 7:
+      nameOfMonth = "July";
+      numOfDaysInMonth = 31;
+      break;
+      case 8:
+      nameOfMonth = "August";
+      numOfDaysInMonth = 31;
+      break;
+      case 9:
+      nameOfMonth = "September";
+      numOfDaysInMonth = 30;
+      break;
+      case 10:
+      nameOfMonth = "October";
+      numOfDaysInMonth = 31;
+      break;
+      case 11:
+      nameOfMonth = "November";
+      numOfDaysInMonth = 30;
+      break;
+      case 12:
+      nameOfMonth = "December";
+      numOfDaysInMonth = 31;
+      break;
+    }
+    System.out.println(nameOfMonth + " " + year + " has " + numOfDaysInMonth + 
+    " days.");
+  }
 }

@@ -19,32 +19,32 @@
 import java.util.Scanner;
 public class SortedIntegers {
   public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		System.out.println("Enter three integers:");
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter three integers:");
 		
-		int int1 = input.nextInt();
-		int int2 = input.nextInt();
+    int int1 = input.nextInt();
+    int int2 = input.nextInt();
     int int3 = input.nextInt();
 		
     /* The if-else statements compares the three integers so that they can be 
        ordered in increasing order when printed out to the user.*/
     if(int1 > int2) {
-			int value = int1; 
-			int1 = int2;
-			int2 = value;
-		}
-		if(int2 > int3) {
-			int value = int2;
-			int2 = int3;
-			int3 = value;
-		}
-		if(int1 > int2) {
-			int value = int1;
-			int1 = int2;
-			int2 = value;
-		}
+      int value = int1; 
+      int1 = int2;
+      int2 = value;
+    }
+    if(int2 > int3) {
+      int value = int2;
+      int2 = int3;
+      int3 = value;
+    }
+    if(int1 > int2) {
+      int value = int1;
+      int1 = int2;
+      int2 = value;
+    }
 		
-		System.out.println("The sorted numbers are: " + int1 + " "  + int2 + " " + 
-		int3);
-	}
+    System.out.println("The sorted numbers are: " + int1 + " "  + int2 + " " + 
+    int3);
+  }
 }
