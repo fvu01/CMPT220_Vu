@@ -12,14 +12,19 @@
 /**
  * RandomMonth
  * 
- * This class generates a random integer and displays the corresponding month.
+ * This class generates a random integer from 1 - 12 using Math.random. Based 
+ * off of the generated random number, the random number goes through the 
+ * if-else statements to generate the name of the month of the random number. 
  */
  
 public class RandomMonth {
 	public static void main(String[] args) {
-		 int randomMonth = (int) ((Math.random() * 12) + 1);
-		 // This Math.random generates a random integer from 1 to 12
+    // This Math.random generates a random integer from 1 to 12.
+		 int randomMonth = (int) ((Math.random() * 12) + 1); 
 		 
+     /* The random integer generated from the Math.random is analyzed through 
+		    the if-else statements. Depending on the random integer generated, the 
+		    corresponding month for the integer is displayed. */
 		 if(randomMonth == 1) {
 			 System.out.println("January");
 		 }
@@ -56,8 +61,5 @@ public class RandomMonth {
 		 else {
 			 System.out.println("December");
 		 }
-		 /* The random integer generated from the Math.random is analyzed through 
-		    the if-else statements. Depending on the random integer generated, the 
-		    corresponding month for the integer is displayed. */
 	}
 }

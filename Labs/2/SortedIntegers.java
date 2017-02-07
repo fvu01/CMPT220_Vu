@@ -12,21 +12,24 @@
 /**
  * SortedIntegers
  * 
- * This class orders three inputted integers in increasing order.
+ * This class uses if-else statements to analyze three inputted numbers and 
+ * output them to the user in increasing order.
  */
 
 import java.util.Scanner;
 public class SortedIntegers {
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter three integers:");
 		
 		int int1 = input.nextInt();
 		int int2 = input.nextInt();
-		int int3 = input.nextInt();
+    int int3 = input.nextInt();
 		
-		if(int1 > int2) {
-			int value = int1; // The value is a placeholder for the integer.
+    /* The if-else statements compares the three integers so that they can be 
+       ordered in increasing order when printed out to the user.*/
+    if(int1 > int2) {
+			int value = int1; 
 			int1 = int2;
 			int2 = value;
 		}
