@@ -6,12 +6,14 @@
  * due date: February 21, 2017 @ 18:30
  * version: 1.0
  *
- * 
+ * This program prompts the user to enter an integer. The digits from the 
+ * integer are added together and the sum is outputted. 
  */
 /**
  * SumDigits
  * 
- * 
+ * This class uses the method, public static in sumDigits(long n), to calculate
+ * the sum of digits and returns the sum. 
  */
  
 import java.util.Scanner;
@@ -25,10 +27,11 @@ public class SumDigits {
     System.out.print("The sum of the digits is " + sumDigits(n));
   }
   
-  public static int sumDigits(long n) {
+  public static int sumDigits(long n) { 
+  // This method is used to return the sum of all the digits the user inputs.
     int sum = 0;
     
-    while(n != 0) {
+    while(n != 0) { // Takes each individual digit so that they can be added.
       sum += n % 10;
       n = n / 10;
     }
