@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 public class AverageGrade {
   public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     
     System.out.println("Please enter the following as a percentage...");
     // This the beginning line which simply prompts the user.
