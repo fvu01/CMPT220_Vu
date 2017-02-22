@@ -15,51 +15,77 @@
  * This class uses if-else statements to output a number depending on the letter
  * inputted by the user. 
  */
- 
-import java.util.Scanner;
+
+import java.util.Scanner; 
 public class PhoneKeyPad {
-  private static final int INVALID_KEY = -1; // This identifies invalid inputs.
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     
-    System.out.println("Enter a letter: ");
-    char letter = input.next().charAt(0);
+    System.out.print("Enter a capital letter: ");
     
-    int numberPressed = correspondingNumber(letter);
+    String invalid = input.next();
+    // Places the input in a string to identify invalid inputs
     
-    /* This if-else statement outputs the corresponding number to the inputted 
-       letter. If the input is not a letter, then it is invalid. */
-    if(numberPressed != INVALID_KEY) {
-      System.out.println("The corresponding number is " + numberPressed);
+    char letter = invalid.toUpperCase().charAt(0);
+    // Makes the input an uppercase letter
+    
+    int number;
+    
+    //The switch-case checks the inputted letter and assigns a numbers to it.
+    switch(letter) {  
+      case 'A':        
+      case 'B':
+      case 'C':
+        number = 2;
+        break; 
+      case 'D':
+      case 'E':
+      case 'F':
+        number = 3;
+        break;
+      case 'G':
+      case 'H':
+      case 'I':
+        number = 4;
+        break;
+      case 'J':
+      case 'K':
+      case 'L':
+        number = 5;
+        break;
+      case 'M':
+      case 'N':
+      case 'O':
+        number = 6;
+        break;
+      case 'P':
+      case 'Q':
+      case 'R':
+      case 'S':
+        number = 7;
+        break;
+      case 'T':
+      case 'U':
+      case 'V':
+        number = 8;
+        break;
+      case 'W':
+      case 'X':
+      case 'Y':
+      case 'Z':
+        number = 9;
+        break;
+      default:
+        number = 0;
+        break;
     }
-    else {
-      System.out.println(letter + " is an invalid input.");
+    
+    if(number != 0) { // Outputs the keypad number for each letter
+      System.out.print("The corresponding number is " + number);
+      System.exit(0);
     }
-  }
-  public static int correspondingNumber(char letter) {
-    /* If an lowercase letter in inputted, this makes it uppercase so that it a
-       valid input. */    
-    letter = Character.toUpperCase(letter);
     
-    /* Depending on the letter, the corresponding number is returned through 
-       these if statements. */
-    if(letter >= 'A' && letter <= 'C')
-      return 2;
-    if(letter >= 'D' && letter <= 'F')
-      return 3;
-    if(letter >= 'G' && letter <= 'I') 
-      return 4;
-    if(letter >= 'J' && letter <= 'L') 
-      return 5;
-    if(letter >= 'M' && letter <= 'O') 
-      return 6;
-    if(letter >= 'P' && letter <= 'S') 
-      return 7;
-    if(letter >= 'T' && letter <= 'V') 
-      return 8;
-    if(letter >= 'W' && letter <= 'Z') 
-      return 9;
-    
-    return INVALID_KEY;
+    // Outputs invalid key
+    System.out.print(invalid + " is an invalid input");
   }
 }
