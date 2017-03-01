@@ -6,12 +6,15 @@
  * due date: February 28, 2017 @ 18:30
  * version: 1.0
  *
- *
+ * This program takes an inputted string from the user. The total numbers of 
+ * letters within the string is counted and outputted to the user.
  */
 /**
  * CountLetters
  * 
- *
+ * This class takes an inputted string. Through the method countLetters, the 
+ * total number of letters within the string is counted. The method isLetter
+ * verifies that each letter is in fact a letter so that it can be counted.
  */
  
 import java.util.Scanner;

@@ -33,6 +33,16 @@ public class PalindromeInt {
     System.out.println(n + " is not a palindrome.");
   }
   
+  /**
+   * reverse
+   *
+   * reverses an integer number which is part of checking if it is a palindrome
+   *
+   * Parameters:
+   *  number: The number or integer which order is reversed 
+   *
+   * Return value: The completely reversed number.
+   */
   public static int reverse(int number) {
     // This method check if a number is a palindrome by reversing it.
     
@@ -46,6 +56,17 @@ public class PalindromeInt {
     return reverse;
   }
   
+  /**
+   * isPalindrome
+   *
+   * A boolean method which when true verifies that the number is a palindrome
+   *
+   * Parameters:
+   *  number: The inputted number which is or is not a palindrome
+   *
+   * Return value: the number is a palindrome; returns that that the number is 
+   * equal to its reverse
+   */
   public static boolean isPalindrome(int number) {
     return (number == reverse(number));
     // If the reverse of a # is the same as the #, then it's a palindrome

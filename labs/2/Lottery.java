@@ -52,18 +52,18 @@ public class Lottery {
     if(guess == lottery) {
       guess = 1;
     }
-    else if(((lotteryDigit1 == guessDigit1) || (lotteryDigit1 == guessDigit2) ||
-    (lotteryDigit1 == guessDigit3)) && ((lotteryDigit2 == guessDigit1) || 
-    (lotteryDigit2 == guessDigit2) || (lotteryDigit2 == guessDigit3)) && 
-    ((lotteryDigit3 == guessDigit1) || (lotteryDigit3 == guessDigit2) ||
-    (lotteryDigit3 == guessDigit3))) {
+    else if(((lotteryDigit1 == guessDigit1) || (lotteryDigit1 == guessDigit2) 
+      || (lotteryDigit1 == guessDigit3)) && ((lotteryDigit2 == guessDigit1) 
+      || (lotteryDigit2 == guessDigit2) || (lotteryDigit2 == guessDigit3)) 
+      && ((lotteryDigit3 == guessDigit1) || (lotteryDigit3 == guessDigit2) 
+      || (lotteryDigit3 == guessDigit3))) {
       guess = 2;
     }
-    else if(lotteryDigit1 == guessDigit1 || lotteryDigit1 == guessDigit2 || 
-    lotteryDigit1 == guessDigit3 || lotteryDigit2 == guessDigit1 || 
-    lotteryDigit2 == guessDigit2 || lotteryDigit2 == guessDigit3 ||
-    lotteryDigit3 == guessDigit1 || lotteryDigit3 == guessDigit2 ||
-    lotteryDigit3 == guessDigit3) {
+    else if(lotteryDigit1 == guessDigit1 || lotteryDigit1 == guessDigit2 
+      || lotteryDigit1 == guessDigit3 || lotteryDigit2 == guessDigit1 
+      || lotteryDigit2 == guessDigit2 || lotteryDigit2 == guessDigit3 
+      || lotteryDigit3 == guessDigit1 || lotteryDigit3 == guessDigit2 
+      || lotteryDigit3 == guessDigit3) {
       guess = 3;
     }
     else {

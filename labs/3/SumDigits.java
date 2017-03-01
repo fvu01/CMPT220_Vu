@@ -27,6 +27,18 @@ public class SumDigits {
     System.out.print("The sum of the digits is " + sumDigits(n));
   }
   
+  /**
+   * sumDigits
+   *
+   * finds each individual digit within a larger digit such as 25 or 988 and 
+   * counts those individual digits to find the sum of the whole digit
+   *
+   * Parameters:
+   *  n: The digit in which the individual digits are checked and added together
+   *
+   * Return value: The sum of the digits from the main digit in which the 
+   * numbers are added together.
+   */
   public static int sumDigits(long n) { 
   // This method is used to return the sum of all the digits the user inputs.
     int sum = 0;
