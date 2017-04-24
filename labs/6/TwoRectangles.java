@@ -3,7 +3,7 @@
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Lab 6
- * due date: April 11, 2017 @ 18:30
+ * due date: April 18, 2017 @ 18:30
  * version: 1.0
  *
  * 
