@@ -1,0 +1,10 @@
+25 pts
+
+Frances,
+
+What is this submission? It is not a working program! Not even close. It looks
+like a copy-paste of the project pseudo-code.
+
+Peace,
+
+- Dr. Rivas
