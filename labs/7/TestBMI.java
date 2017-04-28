@@ -6,7 +6,8 @@
  * due date: April 25, 2017 @ 18:30
  * version: 1.0
  *
- * 
+ * This program outputs a name, age, weight, feet, inches, BMI, and BMI status 
+ * of the already present information. 
  */
 /**
  * TestBMI

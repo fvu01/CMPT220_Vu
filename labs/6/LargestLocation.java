@@ -6,7 +6,9 @@
  * due date: April 18, 2017 @ 18:30
  * version: 1.0
  *
- * 
+ * This progrma prompts the user for an input of a certain number of rows and 
+ * columns. Afterwards, the user inputs arrays in which the location of the 
+ * largest element is outputed.
  */
 /**
  * LargestLocation
@@ -23,6 +25,7 @@ public class LargestLocation {
     int row = input.nextInt();
     int column = input.nextInt();
     double[][] array = new double[row][column];
+    // creates rows and columns based on input
     
     System.out.println("Enter the array:");
     for(int i=0; i<array.length; i++)

@@ -23,7 +23,7 @@ public class Location {
     this.row = row;
     this.column = column;
     this.maxValue = maxValue;
-  }
+  } 
   
   public static Location locateLargest(double[][] a) {
     int row = 0;
