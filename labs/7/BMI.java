@@ -6,12 +6,16 @@
  * due date: April 25, 2017 @ 18:30
  * version: 1.0
  *
- * 
+ * This is the class BMI which contains name, age, weight, height, feet, and
+ * inches. This contains the calculation for BMI and the corresponding BMI
+ * status for whatever number a BMI falls within.
  */
 /**
  * BMI
  * 
- * 
+ * This is the object oriented class for TestBMI.java. This class contains the 
+ * BMI calculation amongst other things so that they can be called upon and 
+ * printed in TestBMI.
  */
  
 public class BMI {

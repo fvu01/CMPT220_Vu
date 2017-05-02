@@ -6,12 +6,14 @@
  * due date: April 25, 2017 @ 18:30
  * version: 1.0
  *
- * 
+ * This program takes a queue of numbers and outputs them as rows of four with
+ * five elements in each row. 
  */
 /**
  * TestQueue
  * 
- * 
+ * This class takes Queue.java and uses it to output the resulting queue by 
+ * using for-loops and an if-statement. 
  */
  
 public class TestQueue {

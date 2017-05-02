@@ -6,12 +6,12 @@
  * due date: April 25, 2017 @ 18:30
  * version: 1.0
  *
- * 
+ * This class contains the elements for TestQueue to work.
  */
 /**
  * Queue
  * 
- * 
+ * This is the object oriented class which works hand in hand with TestQueue
  */
  
 public class Queue {

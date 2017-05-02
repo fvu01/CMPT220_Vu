@@ -6,12 +6,15 @@
  * due date: April 18, 2017 @ 18:30
  * version: 1.0
  *
- * 
+ * This java program takes two inputted rectangles and uses the class Rectangle
+ * to output the area and perimeter of the two rectangles.
  */
 /**
  * TwoRectangles
  * 
- * 
+ * This class outputs area and perimeter of two rectanlges by using getArea() 
+ * and getPerimeter() which calls the area and perimeter equation from the class
+ * Rectanlge which holds these equations. 
  */
  
 public class TwoRectangles {
