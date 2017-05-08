@@ -43,7 +43,7 @@ public class SmallestElement {
   public static double min(double[] numbers) {
     double min = numbers[0];
     
-    for(int i = 1; i < array.numbers; i++) {
+    for(int i = 1; i < numbers.length; i++) {
       if(min > numbers[i])
         min = numbers[i];
     }
