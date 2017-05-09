@@ -3,10 +3,14 @@
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Project 2
- * due date: May 9, 2017 @ 18:30
+ * due date: May 8, 2017 @ 23:59
  * version: 1.0
  *
- * 
+ * TypeIt.java is the main class which contains the text editor itself. This 
+ * class creates the text area, including the menu items and the toolbar. All
+ * the main functions such as new, open, save, save as, etc. are programmed
+ * within this class. The other classes such as FindReplace.java and Fonts.java
+ * are called from within this java class.
  */
 
 import java.util.*; // reading from file

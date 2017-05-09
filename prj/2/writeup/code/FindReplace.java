@@ -3,10 +3,14 @@
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Project 2
- * due date: May 9, 2017 @ 18:30
+ * due date: May 8, 2017 @ 23:59
  * version: 1.0
  *
- * The program for find and replace for TypeIt.java
+ * This class, FindReplace.java is the class which controls the find and replace
+ * function which exists in TypeIt.java. This class allows for words to be found
+ * when using the text editor and for those words to be replaced when using the 
+ * find and replace function. This class is called from the TypeIt.java class
+ * making the menu items for find and replace to work.
  */
 
 import javax.swing.*;

@@ -3,10 +3,15 @@
  * author: Frances Vu
  * course: CMPT 220
  * assignment: Project 2
- * due date: May 9, 2017 @ 18:30
+ * due date: May 8, 2017 @ 23:59
  * version: 1.0
  *
- * The program for formatting font, font size, and font type for TypeIt.java
+ * This class allows for the changing of font family, size, and type of the 
+ * overall text document opened in TypeIt.java. The main class calls upon this
+ * class so that the font can be changed. The font sizes and types are limited 
+ * to the set of font sizes and types listed below while the font family comes  
+ * in the various fonts available on the system being used. This class does not 
+ * change font color. The font color option is initialized in the main class. 
  */
  
 import javax.swing.*;
